@@ -23,7 +23,7 @@ describe('Should successfully log in & log out', () => {
     });
 
     it('should successfully log out', async () => {
-        await loginPage.SignOutHeader();
-        await expect(await LoginPage.SignInHeader()).toBe(true);
+        await loginPage.signOutHeader();
+        await expect(await LoginPage.signInHeader()).toBe(true);
     });
 })

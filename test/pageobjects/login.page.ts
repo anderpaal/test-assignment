@@ -44,12 +44,12 @@ class LoginPage extends Page {
         return false;
     }
 
-    async SignOutHeader(): Promise<boolean> {
+    async signOutHeader(): Promise<boolean> {
         await console.info('Looking for Sign Out button');
         return await this.clickElement(await this.signOutField);
     }
 
-    async SignInHeader(): Promise<boolean> {
+    async signInHeader(): Promise<boolean> {
         await console.info('Looking for Sign in button');
         return await this.clickElement(await this.signInField);
     }

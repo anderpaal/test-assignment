@@ -6,7 +6,7 @@ import ShoppingCartPage from '../pageobjects/shoppingCart.page';
 
 let orderReference = "0";
 
-describe('Should order a t-shirt while logged in', () => {
+describe('Should successfully complete a order while logged in', () => {
     before('should login with valid credentials', async () => {
         await LoginPage.open('index.php?controller=authentication');
         await LoginPage.login('meesmetsast087@gmail.com', 'SuperSecretPassword!');
@@ -39,7 +39,7 @@ describe('Should confirm error message after not accepting Terms of service', ()
     });
 })
 
-describe('Should check for order to be present on "Order history" after ordering', () => {
+describe('Should check for order reference in "Order history" after successful order', () => {
 
     it('should add a product to cart', async () => {
         await HomePage.proceedToChekout('index.php?id_product=7&controller=product');
