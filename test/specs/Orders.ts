@@ -6,7 +6,7 @@ import ShoppingCartPage from '../pageobjects/shoppingCart.page';
 
 let orderReference = "0";
 
-describe('Should successfully complete a order while logged in', () => {
+describe('Should successfully complete order while logged in', () => {
     before('should login with valid credentials', async () => {
         await LoginPage.open('index.php?controller=authentication');
         await LoginPage.login('meesmetsast087@gmail.com', 'SuperSecretPassword!');

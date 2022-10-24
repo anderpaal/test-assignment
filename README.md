@@ -24,17 +24,12 @@ I use TypeScript because it is a type version of javascript with some added feat
 ### Reasons for choosing Webdriver.IO
 I use Webdriver.IO because I have previous experience with it.
 
-### TC. 1
-Should get an error for trying to log in with wrong password.
+### Test case introduction
+``./specs/Login.ts``
+TC 1 - Should get an error for trying to log in with wrong password.
+TC 2 - Should successfully log in and log out.
 
-### TC.2 
-Should successfully log in and log out.
-
-### TC.3
-Should successfully complete a order while logged in.
-
-### TC.4 
-Should confirm error message after not accepting Terms of service.
-
-### TC.5
-Should check for order reference in "Order history" after successful order.
+``./specs/Orders.ts``
+TC 1 - Should successfully complete order while logged in.
+TC.2 - Should confirm error message after not accepting Terms of service.
+TC.3 - Should check for order reference in "Order history" after successful order.
