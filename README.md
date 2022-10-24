@@ -9,8 +9,8 @@ Make sure to have  [Git](https://git-scm.com) installed.
 Make sure to have [NodeJs](https://nodejs.org/en/) installed.
 
 ### Chromedrvier
-Current cromedriver version 106.0.1.
 ```npm install chromedriver --save-dev``` to update to lates version if not up to date.
+Current cromedriver version 106.0.1.
 
 ### Running tests
 ```npm run test``` - run all tests.
