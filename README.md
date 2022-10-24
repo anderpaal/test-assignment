@@ -2,14 +2,11 @@
 An example project of Webdriver.IO using Chromedriver 106.0.1.
 
 ### Prerequisites for testing
+```git clone``` the project to your machine. 
 Make sure to have  [Git](https://git-scm.com) installed.
 
-```git clone``` the project to your machine.
-
-
-Make sure to have [NodeJs](https://nodejs.org/en/) installed.
-
 ```npm install``` in the root folder of the cloned project to install dependencies.
+Make sure to have [NodeJs](https://nodejs.org/en/) installed.
 
 ### Chromedrvier
 Make sure to have Google Chrome browser installed.
