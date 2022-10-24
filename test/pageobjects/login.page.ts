@@ -18,7 +18,6 @@ class LoginPage extends Page {
 
     async getErrorBodyText(errorText: string): Promise<boolean> {
         const errorTextField: string = await this.getElementText(await this.errorBodyText);
-
         await console.info('Looking for error body text: ' + errorText);
 
         if (errorText === errorTextField) {
@@ -32,7 +31,6 @@ class LoginPage extends Page {
 
     async getLoginNameText(loginName: string): Promise<boolean> {
         const loginNameField: string = await this.getElementText(await this.loginNameText);
-
         await console.info('Looking for Login name text: ' + loginName);
 
         if (loginName === loginNameField) {
@@ -52,10 +50,6 @@ class LoginPage extends Page {
     async signInHeader(): Promise<boolean> {
         await console.info('Looking for Sign in button');
         return await this.clickElement(await this.signInField);
-    }
-
-    public open (path: string) {
-        return super.open(path);
     }
 }
 
