@@ -2,6 +2,8 @@
 An example project of WebdriverIO using Chromedriver 106.0.1.
 
 ### Prerequisites for testing
+Makse sure to have [Visual Studio Code](https://code.visualstudio.com/) (or any other IDE)
+
 ```git clone``` the project to your machine.
 More info on [Git](https://git-scm.com).
 
