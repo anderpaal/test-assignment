@@ -10,7 +10,9 @@ Make sure to have [NodeJs](https://nodejs.org/en/) installed.
 
 ### Running tests
 ```npm run test``` - run all test.
+
 ```npm run login``` - run test from specs/Login.ts.
+
 ```npm run orders``` - run test from specs/Orders.ts.
 
 ### Test results
