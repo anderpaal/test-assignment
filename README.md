@@ -25,14 +25,14 @@ I use TypeScript because it is a type version of javascript with some added feat
 I use Webdriver.IO because I have previous experience with it.
 
 ### Test case introduction
-``./specs/Login.ts``
+``test/specs/Login.ts``
 
 TC 1 - Should get an error for trying to log in with wrong password.
 
 TC 2 - Should successfully log in and log out.
 
 
-``./specs/Orders.ts``
+``test/specs/Orders.ts``
 
 TC 1 - Should successfully complete order while logged in.
 
