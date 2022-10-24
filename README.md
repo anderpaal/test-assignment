@@ -1,5 +1,5 @@
 # Test-assignment
-An example project of Webdriver.IO using Chromedriver 106.0.1.
+An example project of Webdriver.IO using Chromedriver.
 
 ### Prerequisites for testing
 ```git clone``` the project to your machine. 
@@ -9,9 +9,8 @@ Make sure to have  [Git](https://git-scm.com) installed.
 Make sure to have [NodeJs](https://nodejs.org/en/) installed.
 
 ### Chromedrvier
-Make sure to have Google Chrome browser installed.
-
-```npm install chromedriver --save-dev``` to update to lates version.
+Current cromedriver version 106.0.1.
+```npm install chromedriver --save-dev``` to update to lates version if not up to date.
 
 ### Running tests
 ```npm run test``` - run all tests.
