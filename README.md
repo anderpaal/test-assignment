@@ -6,6 +6,7 @@ Make sure to have  [Git](https://git-scm.com) installed.
 
 ```git clone``` the project to your machine.
 
+
 Make sure to have [NodeJs](https://nodejs.org/en/) installed.
 
 ```npm install``` in the root folder of the cloned project to install dependencies.
