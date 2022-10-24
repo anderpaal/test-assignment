@@ -20,8 +20,5 @@
         "test": "wdio run test/wdio.conf.ts",
         "login": "wdio run test/wdio.conf.ts --spec test/specs/Login.ts",
         "orders": "wdio run test/wdio.conf.ts --spec test/specs/Orders.ts"
-    },
-    "dependencies": {
-        "ts-log": "^2.2.5"
     }
 }
