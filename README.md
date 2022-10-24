@@ -26,10 +26,16 @@ I use Webdriver.IO because I have previous experience with it.
 
 ### Test case introduction
 ``./specs/Login.ts``
+
 TC 1 - Should get an error for trying to log in with wrong password.
+
 TC 2 - Should successfully log in and log out.
 
+
 ``./specs/Orders.ts``
+
 TC 1 - Should successfully complete order while logged in.
+
 TC.2 - Should confirm error message after not accepting Terms of service.
+
 TC.3 - Should check for order reference in "Order history" after successful order.
