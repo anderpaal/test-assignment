@@ -33,7 +33,7 @@ I use Webdriver.IO because I have previous experience with it.
 ### Test case introduction
 ``test/specs/Login.ts``
 
-TC 1 - Should get an error for trying to log in with wrong password.
+TC 1 - Should get an error for trying to log in with wrong password. -FAIL
 
 TC 2 - Should successfully log in and log out.
 
