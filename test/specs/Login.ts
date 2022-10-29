@@ -12,7 +12,7 @@ describe('Should get wrong password error', () => {
 
     it('should get an error for entering wrong password', async () => {
         await LoginPage.login(loginName, password + '!');
-        await expect(await LoginPage.getErrorBodyText('Authentication failed.')).toBe(true);
+        await expect(await LoginPage.getErrorBodyText('Authentication failed. Fail on purpose')).toBe(true);//Fails on purpose, change expected text = 'Authentication failed.'
     })
 })
 
