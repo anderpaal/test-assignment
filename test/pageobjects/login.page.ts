@@ -10,7 +10,7 @@ class LoginPage extends Page {
     get signInField(): Promise<WebdriverIO.Element> { return $('a[class="login"]'); }
 
     async login(eMail: string, password: string): Promise<boolean> {
-        await console.info('Entering e-mail $ passrowr $ logging in');
+        await console.info(`Entering e-mail: ${eMail} & password: ${password} & clicking on log in button`);
         await this.setValueToElement(await this.eMailInputField, eMail);
         await this.setValueToElement(await this.passwordInputField, password);
         return await this.clickElement(await this.signInButton, 1000);

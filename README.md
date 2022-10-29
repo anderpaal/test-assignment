@@ -22,6 +22,8 @@ Current cromedriver version 106.0.1.
 ### Test results
 Test results will be displayed in the terminal after running all tests.
 
+```npm run report``` - to open allure reporter.
+
 ### Reasons for choosing TypeScript
 I use TypeScript because it is a type version of javascript with some added features.
 
